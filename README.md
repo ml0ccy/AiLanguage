@@ -16,8 +16,8 @@ This project is under active development and aims to be a unique platform.
 
 ## Getting Started
 
-1.  **Download NASM:** [https://www.nasm.us/pub/nasm/releasebuilds/2.16.01/win64/](LINK) *(Replace "LINK" with the actual link)*
-2.  **Download Mingw-64:** [https://www.mingw-w64.org/](LINK) *(Replace "LINK" with the actual link)*
+1.  **Download NASM:** [https://www.nasm.us/pub/nasm/releasebuilds/2.16.01/win64/](LINK)
+2.  **Download Mingw-64:** [https://www.mingw-w64.org/](LINK)
 3.  **Explore Examples:** Check out the `samples/` directory for example AILanguage programs.
 4.  **Write your AILanguage code:** Create a file with the `.ail` extension (e.g., `test.ail`).
 5.  **Compile your code:** Run the `compiler.py` script (or your compiled compiler), providing the path to your `.ail` file as an argument.
@@ -51,8 +51,8 @@ AILanguage is licensed under the [MIT License](LICENSE). See the `LICENSE` file 
 
 ## Contacts
 
-You can write comments in the official Telegram channel for the AILanguage language: [https://t.me/AiLangu](LINK) *(Replace "LINK" with the actual link)*
-Also, the author's Telegram channel: [https://t.me/mloccy](LINK) *(Replace "LINK" with the actual link)*
+You can write comments in the official Telegram channel for the AILanguage language: [https://t.me/AiLangu](LINK)
+Also, the author's Telegram channel: [https://t.me/mloccy](LINK)
 
 ---
 
