@@ -16,8 +16,8 @@
 
 ## Начало работы
 
-1.  **Скачайте NASM:** [https://www.nasm.us/pub/nasm/releasebuilds/2.16.01/win64/](ССЫЛКА)
-2.  **Скачайте Mingw-64** [https://www.mingw-w64.org/](ССЫЛКА)
+1.  **Скачайте NASM:** [https://www.nasm.us/pub/nasm/releasebuilds/2.16.01/win64/](https://www.nasm.us/pub/nasm/releasebuilds/2.16.01/win64/)
+2.  **Скачайте Mingw-64** [https://www.mingw-w64.org/](https://www.mingw-w64.org/)
 3.  **Изучите примеры:** Посмотрите директорию `samples/` с примерами программ на AILanguage.
 4.  **Напишите свой код на AILanguage:** Создайте файл с расширением `.ail` (например, `test.ail`).
 5.  **Скомпилируйте код:** Запустите скрипт `compiler.py` (или ваш скомпилированный компилятор), указав путь к вашему `.ail` файлу в качестве аргумента.
@@ -51,8 +51,8 @@ AILanguage лицензирован по лицензии [MIT License](LICENSE)
 
 ## Контакты
 
-Вы можете написать в комментарии в оффициальном телеграмм канале языка AILanguage [https://t.me/AiLangu](ССЫЛКА)
-Также телеграмм канал автора данного языка [https://t.me/mloccy](ССЫЛКА)
+Вы можете написать в комментарии в оффициальном телеграмм канале языка AILanguage [https://t.me/AiLangu](https://t.me/AiLangu)
+Также телеграмм канал автора данного языка [https://t.me/mloccy](https://t.me/mloccy)
 
 ---
 
