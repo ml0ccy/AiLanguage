@@ -13,6 +13,7 @@ This project is under active development and aims to be a unique platform.
 *   **Arrays and Structures:** Supports static arrays and user-defined structures for data organization.
 *   **Standard Library:**  Provides a basic standard library with functions for string manipulation (`strlen`, `substring`, `strcat`, `strcmp`, `atoi`, `itoa`) and input/output (`print`).
 *   **AI-Powered Compilation:**  The core innovation - an AI model is used to compile AILanguage code into NASM Assembly.
+*   **Easy to Extend and Improve:**  Thanks to the AI-powered compiler, AILanguage is designed to be easily extended with new features and improved over time.  Adding new language constructs or optimizing code generation can be achieved by simply updating the AI's "documentation" and training data, making the development process more flexible and iterative compared to traditional compilers.
 
 ## Getting Started
 
