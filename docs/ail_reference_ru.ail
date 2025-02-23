@@ -1,0 +1,85 @@
+=== Ядро AILanguage ===
+1. Типы данных:
+   - int: 64-битное целое
+   - string: ASCIIZ (завершается нулём)
+   - bool: 1 байт (0/1)
+
+2. Функции:
+   function Name(args) { ... }
+   * Возврат через RAX
+   * Аргументы передаются в RCX, RDX, R8, R9
+
+3. Управляющие структуры:
+   - if (cond) { ... } → cmp + jcc
+   - while (cond) { ... } → loop + jmp
+   - for → преобразуется в while
+
+=== Сопоставление с ASM ===
+1. Объявление переменной:
+   let x = 5 → 
+   section .data
+   x dq 5
+
+2. Вывод текста:
+   print("test") → 
+   lea rcx, [msg_test]
+   call printf
+
+3. Ввод данных:
+   input() → 
+   lea rcx, [format_str]
+   lea rdx, [buffer]
+   call scanf
+
+4. Функция Main:
+   function Main() → 
+   global main
+   main:
+       sub rsp, 40
+
+=== Требования к ASM ===
+1. Обязательные элементы:
+   default rel
+   section .data
+   section .text
+   extern используемых функций
+   global main
+
+2. Запрещённые конструкции:
+   - 32-битные регистры (eax, ebx)
+   - Неявные переходы
+   - Прямые mov к адресам
+
+3. Соглашение вызовов:
+   | Параметр | Регистр |
+   |----------|---------|
+   | 1        | RCX     |
+   | 2        | RDX     |
+   | 3        | R8      |
+   | 4        | R9      |
+   | >4       | Стек    |
+
+=== Пример полной трансляции ===
+Исходный код:
+function Main() {
+    print("Результат: ", 5*2)
+}
+
+ASM код:
+default rel
+extern printf
+
+section .data
+    msg db 'Результат: %d', 0
+    result dq 10
+
+section .text
+global main
+main:
+    sub rsp, 40
+    lea rcx, [msg]
+    mov rdx, [result]
+    call printf
+    add rsp, 40
+    ret
+=== Конец документации === 
