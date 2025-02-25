@@ -18,7 +18,7 @@ This project is under active development and aims to be a unique platform.
 ## Getting Started
 
 1.  **Download NASM:** [https://www.nasm.us/pub/nasm/releasebuilds/2.16.01/win64/](https://www.nasm.us/pub/nasm/releasebuilds/2.16.01/win64/)
-2.  **Download Mingw-64:** [https://www.mingw-w64.org/](https://www.mingw-w64.org/)
+2.  **Download Mingw-64:** [https://github.com/brechtsanders/winlibs_mingw/releases/download/14.2.0posix-19.1.7-12.0.0-msvcrt-r3/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64msvcrt-12.0.0-r3.zip](https://github.com/brechtsanders/winlibs_mingw/releases/download/14.2.0posix-19.1.7-12.0.0-msvcrt-r3/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64msvcrt-12.0.0-r3.zip)
 3.  **Explore Examples:** Check out the `samples/` directory for example AILanguage programs.
 4.  **Write your AILanguage code:** Create a file with the `.ail` extension (e.g., `test.ail`).
 5.  **Compile your code:** Run the `compiler.py` script (or your compiled compiler), providing the path to your `.ail` file as an argument.
